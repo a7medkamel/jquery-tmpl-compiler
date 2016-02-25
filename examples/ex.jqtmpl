@@ -1,0 +1,8 @@
+<div>
+        {{if OverallScore > 0 }}
+            <span class=noWrap>${OverallScore}/10</span>&nbsp;
+            <div class="status_icon gridDetailsImage spritedimagealign spritedimage" id="qsImage${Id}" title="Quality Score Details" onclick="$.gridPopup.clickEvent(event, function(){ $.advertiser.controls.qualityscore.DisplayQsFlyout('${KeywordRelevance}','${LandingPageQuality}', '${LandingPageRelevance}','${OverallScore}')}, 'qsContainer', 'Quality Score: &nbsp;${OverallScore}&nbsp; out of 10')" ></div>
+        {{else}}
+            <span class=noWrap>-</span>&nbsp;
+        {{/if}}
+    </div>

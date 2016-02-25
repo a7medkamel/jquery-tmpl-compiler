@@ -1,0 +1,21 @@
+{
+  "name": "jquery-tmpl-compiler",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "a7medkamel",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^1.0.0",
+    "jqtpl": "^2.0.16-rc1",
+    "yargs": "^1.2.1",
+    "bluebird": "^1.2.4",
+    "underscore": "^1.6.0",
+    "glob": "^3.2.9",
+    "uuid": "^1.4.1",
+    "mkpath": "^0.1.0"
+  }
+}
